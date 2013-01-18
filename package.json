@@ -1,0 +1,23 @@
+{
+	"author": "Norman Khine <norman@zmgc> (http://zmgc.net)",
+	"name": "zchat",
+	"description": "A chat Node.js application for the ZMGC project",
+	"version": "0.0.1-1",
+	"homepage": "http://chat.zmgc.net",
+	"repository": {
+	"type": "git",
+	"url": "git://github.com/TZM/zchat.git"
+	},
+	"subdomain": "zchat",
+	"engines": {
+		"node": " >=0.8.8"
+	},
+	"scripts": {
+		"start": "app.js"
+	},
+	"dependencies": {
+		"now": "0.8.0"
+	},
+	"devDependencies": {},
+	"optionalDependencies": {}
+}
