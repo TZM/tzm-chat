@@ -1,5 +1,6 @@
 var server = require('http').createServer(function(req, res){
-  res.end(html);
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('TZM Chat Server\n');
 });
 server.listen(9080);
 
