@@ -5,7 +5,7 @@ var server = require('http').createServer(function(req, res){
 server.listen(9080);
 
 var nowjs = require("now");
-var everyone = nowjs.initialize(server);
+var everyone = nowjs.initialize(server, {socketio: {transports: ["xhr-polling"]}});
 
 everyone.now.distributeMessage = function(message){
   console.log('User '+this.now.name+' added message ' +message);
