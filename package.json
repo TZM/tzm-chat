@@ -16,7 +16,7 @@
 		"start": "app.js"
 	},
 	"dependencies": {
-		"now": "0.8.0"
+		"now": "git://github.com/nkhine/now.git"
 	},
 	"devDependencies": {},
 	"optionalDependencies": {}
